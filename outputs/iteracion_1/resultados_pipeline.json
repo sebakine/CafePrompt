@@ -1,0 +1,380 @@
+{
+  "etiopia": {
+    "lote": {
+      "id": "etiopia",
+      "pais": "Etiopía",
+      "region": "Guji, Oromía",
+      "productor": "Estación de lavado Hambela (cooperativa de pequeños productores)",
+      "variedad": "Heirloom etíope (variedades locales)",
+      "proceso": "Natural (secado en camas africanas por 21 días)",
+      "altitud": "1.950–2.100 msnm",
+      "notas": "arándano, frutilla madura, chocolate de leche, jazmín",
+      "acidez_cuerpo": "acidez brillante tipo frutos rojos, cuerpo medio y sedoso",
+      "puntaje_sca": 87,
+      "tueste": "claro",
+      "metodo_sugerido": "V60 o Chemex",
+      "precio": "$12.900 (250 g)"
+    },
+    "p0_baseline": "Aquí tienes varias opciones con enfoques diferentes para que elijas la que mejor se adapte al estilo de tu cafetería (en la pizarra, en el menú, para redes sociales o para la bolsa de café en grano).\n\n---\n\n### Opción 1: Sensorial y Elegante (Ideal para el menú o bolsa de café)\n> **Etiopía Guji – Una joya frutal en tu taza**\n> \n> Desde las altas cumbres de Oromía (1.950–2.100 msnm), te presentamos un café excepcional de proceso natural, secado pacientemente durante 21 días en camas africanas. Este Heirloom etíope es una explosión de sabor que equilibra la dulzura y la elegancia.\n> \n> * **En taza:** Disfruta notas vibrantes a arándano y frutilla madura, que se funden con la suavidad del chocolate de leche y un delicado toque floral a jazmín.\n> * **Puntuación SCA:** 87 puntos.\n> \n> *Un café complejo, aromático y absolutamente inolvidable.*\n\n---\n\n### Opción 2: Comercial y Antojo (Ideal para redes sociales o pizarrón)\n> **¡Nuevo Origen en la casa: Etiopía Guji 🇪🇹 (87 pts.)!**\n> \n> ¿Amante de los cafés frutales? Este lote de Oromía te va a encantar. Gracias a su proceso natural de 21 días de secado al sol, desarrolló un perfil sumamente dulce y aromático. \n> \n> 🫐 **Notas de cata:** Arándanos frescos, frutilla madura y un fondo cremoso de chocolate de leche, con un toque sofisticado a jazmín.\n> ⛰️ **Altura:** 2.000 msnm aprox.\n> \n> *Ven a probarlo hoy en filtrado o espresso y déjate sorprender por la cuna del café.*\n\n---\n\n### Opción 3: Corta y Directa (Ideal para la etiqueta del café o descripción rápida)\n> **Etiopía Guji (Natural) – 87 Puntos**\n> * **Región:** Oromía, Etiopía\n> * **Variedad:** Heirloom\n> * **Proceso:** Natural (21 días en camas africanas)\n> * **Altura:** 1.950 – 2.100 msnm\n> * **Perfil de taza:** Un café sedoso y complejo con notas predominantes de **arándano, frutilla madura, chocolate de leche y jazmín**. \n\n---\n\n### 💡 Tips extra para venderlo mejor en tu cafetería:\n* **Método de extracción recomendado:** Sugiérelo en **métodos de filtrado** (V60, Chemex o Aeropress) para resaltar esas notas a jazmín y arándano, o en un **espresso** si buscas una experiencia tipo \"bomba de fresas con chocolate\".\n* **Historia:** Si el cliente pregunta, recuérdale que Etiopía es considerada la cuna del café, y la región de *Guji* produce algunos de los granos más codiciados y aromáticos del mundo.",
+    "p1_ficha": {
+      "nombre_comercial": "Etiopía Guji Hambela · Arándano y Jazmín",
+      "descripcion_menu": "Un café sumamente aromático y frutal, con notas que recuerdan al arándano, la frutilla madura, un toque de chocolate de leche y un delicado aroma a jazmín. Descubre una taza elegante, dulce y de gran complejidad.",
+      "descripcion_extendida": "Este café proviene de la región de Guji en Etiopía, cultivado entre los 1.950 y 2.100 metros por pequeños productores que entregan sus cerezas a la estación de lavado Hambela. Gracias a su proceso natural y secado en camas africanas por 21 días, desarrolla una notable dulzura y aromas florales únicos. En boca ofrece una acidez brillante similar a los frutos rojos, un cuerpo medio y sedoso, con notas a arándano, frutilla madura, chocolate de leche y jazmín. Con 87 puntos SCA, es una experiencia imperdible.",
+      "notas_para_cliente": [
+        {
+          "nota": "arándano",
+          "analogia": "como mermelada de arándanos frescos"
+        },
+        {
+          "nota": "frutilla madura",
+          "analogia": "dulzura jugosa parecida a frutillas recién cosechadas"
+        },
+        {
+          "nota": "chocolate de leche",
+          "analogia": "cremoso y dulce como un huevo de pascua"
+        },
+        {
+          "nota": "jazmín",
+          "analogia": "aroma floral delicado, como flores blancas"
+        }
+      ],
+      "intensidad_1a5": 3,
+      "acidez_1a5": 4,
+      "preparacion_recomendada": "En V60, usa 15 gramos de café por 250 ml de agua a 92 °C para resaltar sus notas florales y frutales.",
+      "maridaje": "Tarteleta de frutos rojos",
+      "ideal_para": "Quienes buscan un café aromático, floral y con marcada personalidad frutal."
+    },
+    "p2_copy": {
+      "variantes": [
+        {
+          "enfoque": "origen",
+          "gancho": "Viaja a Etiopía con cada sorbo de este café.",
+          "cuerpo": "Este café proviene de la región de Guji en Etiopía, cultivado entre los 1.950 y 2.100 metros por pequeños productores que entregan sus cerezas a la estación de lavado Hambela. Gracias a su proceso natural y secado en camas africanas por 21 días, desarrolla una notable dulzura y aromas florales únicos. En Café Altura te invitamos a probarlo. Precio: $12.900 (250 g). ☕",
+          "llamado_a_la_accion": "Pide tu bolsa en nuestra tienda o web hoy mismo.",
+          "hashtags": [
+            "#CafeAltura",
+            "#CafedEspecialidad",
+            "#SantiagoDeChile",
+            "#EtiopiaGuji",
+            "#CaféDeEspecialidad",
+            "#specialtycoffee"
+          ]
+        },
+        {
+          "enfoque": "sensorial",
+          "gancho": "Una taza elegante, dulce y de gran complejidad.",
+          "cuerpo": "Descubre Etiopía Guji Hambela, un café sumamente aromático y frutal. En boca ofrece una acidez brillante similar a los frutos rojos, un cuerpo medio y sedoso, con notas que recuerdan al arándano, la frutilla madura, un toque de chocolate de leche y un delicado aroma a jazmín. Es ideal para quienes buscan un café aromático, floral y con marcada personalidad frutal. 🌸",
+          "llamado_a_la_accion": "Ven a disfrutarlo en nuestra barra esta semana.",
+          "hashtags": [
+            "#CafedEspecialidad",
+            "#CafeAltura",
+            "#SantiagoDeChile",
+            "#NotasFrutales",
+            "#CafeDeEspecialidad",
+            "#specialtycoffee"
+          ]
+        },
+        {
+          "enfoque": "educativo",
+          "gancho": "Prepara el mejor café en casa con V60.",
+          "cuerpo": "Para resaltar las notas florales y frutales de nuestro Etiopía Guji Hambela, te recomendamos usar 15 gramos de café por 250 ml de agua a 92 °C en tu V60. Así podrás apreciar mejor su dulzura y aromas únicos, como el jazmín y el arándano. Pruébalo también acompañado de una rica tarteleta de frutos rojos. ☕",
+          "llamado_a_la_accion": "Comparte tu experiencia etiquetándonos en tus preparaciones.",
+          "hashtags": [
+            "#MetodoV60",
+            "#CafeAltura",
+            "#CafedEspecialidad",
+            "#SantiagoDeChile",
+            "#MetodosDeExtraccion",
+            "#specialtycoffee"
+          ]
+        }
+      ]
+    },
+    "p3_imagen": {
+      "analisis_visual": [
+        {
+          "elemento_ficha": "arándano",
+          "representacion_visual": "arándanos frescos y enteros",
+          "motivo": "Representa la nota frutal brillante presente en el café de manera directa y visualmente atractiva."
+        },
+        {
+          "elemento_ficha": "frutilla madura",
+          "representacion_visual": "frutillas frescas con sus hojas verdes",
+          "motivo": "Evoca la acidez jugosa y frutal característica de este origen."
+        },
+        {
+          "elemento_ficha": "chocolate de leche",
+          "representacion_visual": "porciones de chocolate con leche suave y brillante",
+          "motivo": "Ilustra la textura dulce y cremosa que complementa el perfil del café."
+        },
+        {
+          "elemento_ficha": "jazmín",
+          "representacion_visual": "delicadas flores blancas de jazmín",
+          "motivo": "Aporta un toque floral elegante que refleja las notas sutiles de la taza."
+        },
+        {
+          "elemento_ficha": "proceso natural y origen Etiopía",
+          "representacion_visual": "superficie de madera rústica y telas de yute natural",
+          "motivo": "Sugiere el secado tradicional en camas africanas y el origen artesanal del grano."
+        }
+      ],
+      "prompt_imagen": "A vertical product photograph for Instagram featuring a minimalist ceramic coffee cup with filtered coffee and a clean, label-free brown kraft coffee bag. Arranged around the cup are fresh blueberries, ripe strawberries with green leaves, smooth milk chocolate pieces, and delicate white jasmine flowers. The scene rests on a rustic wooden surface with a subtle burlap texture in the background. Overhead flat lay composition with a clean vertical framing. Soft, warm natural morning light with gentle shadows. Commercial food photography style, shot with an 85mm lens, f/2.8, hyper-detailed. Warm earth tones, vibrant berry reds, and soft greens. Photorealistic, masterclass lighting.",
+      "prompt_negativo": "text, letters, words, logo, brand, watermark, blurry, deformed, cartoon, illustration, painting, low quality, harsh shadows, artificial light, people, hands, spoons, extra objects",
+      "relacion_aspecto": "4:5"
+    },
+    "p4_guion": "Buscas un café sumamente aromático y de gran complejidad. Descubre Etiopía Guji Hambela en Café Altura. Este origen cultivado entre mil novecientos cincuenta y dos mil cien metros de altura destaca por su proceso natural que entrega una taza elegante y dulce. En boca ofrece una acidez brillante similar a los frutos rojos, un cuerpo medio y sedoso, con notas que recuerdan a la mermelada de arándanos, frutillas recién cosechadas, un toque cremoso de chocolate de leche y un delicado aroma a flores blancas. Ven a probarlo en Café Altura."
+  },
+  "colombia": {
+    "lote": {
+      "id": "colombia",
+      "pais": "Colombia",
+      "region": "Pitalito, Huila",
+      "productor": "Finca La Esperanza (familia Rojas)",
+      "variedad": "Pink Bourbon",
+      "proceso": "Lavado con fermentación prolongada de 36 horas",
+      "altitud": "1.750 msnm",
+      "notas": "mandarina, panela, flor de azahar, té negro",
+      "acidez_cuerpo": "acidez cítrica jugosa, cuerpo ligero y limpio",
+      "puntaje_sca": 86.5,
+      "tueste": "claro-medio",
+      "metodo_sugerido": "V60, AeroPress o espresso",
+      "precio": "$11.900 (250 g)"
+    },
+    "p0_baseline": "Aquí tienes varias opciones con diferentes estilos para que elijas la que mejor se adapte al concepto de tu cafetería (en la pizarra, en el menú o para redes sociales):\n\n### Opción 1: Sensorial y Elegante (Ideal para el menú impreso)\n> **Colombia – Pitalito, Huila (Pink Bourbon)**\n> * **Altura:** 1.750 msnm\n> * **Proceso:** Lavado con fermentación prolongada (36 horas)\n> * **Puntaje SCA:** 86.5 puntos\n> \n> *Descripción:* Un café excepcional cultivado en las brumosas montañas de Pitalito. Gracias a una meticulosa fermentación de 36 horas, este exótico Pink Bourbon despliega una taza sumamente compleja y elegante. En boca destaca su brillante acidez cítrica a **mandarina**, equilibrada con la dulce suavidad de la **panela**. Se abre con delicadas notas aromáticas a **flor de azahar** y deja un retrogusto limpio y refinado que recuerda al **té negro**. Una experiencia sofisticada para paladares exigentes.\n\n---\n\n### Opción 2: Comercial y Atractiva (Ideal para la pizarra o cartel de la barra)\n> **¡Novedad en barra! 🇨🇴✨**\n> **Pink Bourbon de Pitalito, Huila** *(86.5 Pts)*\n> \n> ¿Buscas algo diferente? Este café lavado a 1.750 metros de altura pasó por una fermentación especial de 36 horas que potencia al máximo sus sabores. \n> \n> **¿A qué sabe?**\n> * 🍊 Mandarina jugosa\n> * 🟤 Dulzor de panela\n> * 🌸 Aroma a flor de azahar\n> * 🍃 Final fresco tipo té negro\n> \n> *¡Pídelo en método de extracción (V60, Chemex) para disfrutarlo al 100%!*\n\n---\n\n### Opción 3: Poética y Corta (Ideal para Instagram / Redes Sociales)\n> El Huila nos vuelve a sorprender. ☕✨ Desde Pitalito a 1.750 msnm, te presentamos este **Pink Bourbon** con 86.5 puntos en taza. \n> \n> Su proceso lavado con 36 horas de fermentación prolongada logra una sinfonía perfecta: la frescura de la **mandarina**, la elegancia de la **flor de azahar**, el dulzor de la **panela** y la sofisticación del **té negro**. \n> \n> Un viaje de origen que tienes que probar hoy en nuestra barra. 🚀🌿 \n> #CaféDeEspecialidad #PinkBourbon #HuilaColombia #CoffeeLovers\n\n---\n\n### 💡 Tip extra para venderlo mejor en tu cafetería:\n* **Método recomendado:** Ofrécelo en **métodos de filtrados** (V60, Kalita Wave, Aeropress) en lugar de espresso, ya que los procesos lavados y notas florales/cítricas brillan mucho más sin la concentración de la máquina de espresso.\n* **Cuenta la historia:** Cuando el cliente pregunte, recuérdale que el *Pink Bourbon* es una variedad rara y bellísima (un cruce natural entre bourbon rojo y amarillo), y que las 36 horas de fermentación fueron clave para darle ese perfil tan limpio pero frutal.",
+    "p1_ficha": {
+      "nombre_comercial": "Colombia Pitalito · Mandarina y Té Negro",
+      "descripcion_menu": "Un café elegante y limpio, con notas a mandarina fresca y un fondo dulce a panela. Su acidez jugosa y delicadas notas florales lo convierten en una opción sofisticada y sumamente refrescante para cualquier momento.",
+      "descripcion_extendida": "Proveniente de la Finca La Esperanza en Pitalito, Huila, este lote de variedad Pink Bourbon fue cultivado a 1.750 metros y procesado mediante un lavado con fermentación prolongada de 36 horas. El resultado es una taza de cuerpo ligero, caracterizada por su acidez cítrica jugosa y perfiles que recuerdan al té negro y a la flor de azahar. Con 86.5 puntos SCA, te invitamos a prepararlo y disfrutar de su complejidad limpia en cada sorbo.",
+      "notas_para_cliente": [
+        {
+          "nota": "mandarina",
+          "analogia": "como morder una mandarina recién pelada"
+        },
+        {
+          "nota": "panela",
+          "analogia": "dulzor sutil parecido a la chancaca"
+        },
+        {
+          "nota": "flor de azahar",
+          "analogia": "aroma delicado similar a las flores de naranjo"
+        },
+        {
+          "nota": "té negro",
+          "analogia": "la textura ligera y limpia de una infusión de té"
+        }
+      ],
+      "intensidad_1a5": 3,
+      "acidez_1a5": 4,
+      "preparacion_recomendada": "En V60, usa 15 gramos de café para 250 ml de agua a 92 °C, logrando una extracción cercana a los tres minutos.",
+      "maridaje": "Queque de naranja",
+      "ideal_para": "Quien busca una taza limpia, compleja y llena de matices cítricos y florales."
+    },
+    "p2_copy": {
+      "variantes": [
+        {
+          "enfoque": "origen",
+          "gancho": "Viaja a Huila con nuestro nuevo café colombiano.",
+          "cuerpo": "Proveniente de la Finca La Esperanza en Pitalito, este lote fue cultivado a 1.750 metros de altura. Su proceso de lavado con fermentación prolongada de 36 horas da como resultado una taza elegante y limpia, con un cuerpo ligero que destaca por su complejidad. Te invitamos a descubrir este origen que destaca por su sofisticación y frescura en cada sorbo. Encuéntralo disponible en nuestra tostaduría a un valor de $11.900 (250 g). ☕",
+          "llamado_a_la_accion": "Ven por tu bolsa hoy mismo a nuestra cafetería.",
+          "hashtags": [
+            "#CafeAltura",
+            "#CafeDeEspecialidad",
+            "#ColombiaPitalito",
+            "#CafdeChile",
+            "#SantiagoDeChile",
+            "#specialtycoffee"
+          ]
+        },
+        {
+          "enfoque": "sensorial",
+          "gancho": "Disfruta notas a mandarina fresca en tu taza.",
+          "cuerpo": "Te presentamos el nuevo Colombia Pitalito, un café elegante y limpio que te sorprenderá. En cada sorbo notarás una acidez cítrica jugosa, como morder una mandarina recién pelada, acompañada por un fondo dulce a panela y delicadas notas florales. Su perfil recuerda al té negro, entregando una textura ligera y refrescante perfecta para cualquier momento del día. 🍊",
+          "llamado_a_la_accion": "Prueba esta experiencia sensorial en nuestra barra.",
+          "hashtags": [
+            "#CafeAltura",
+            "#CafeDeEspecialidad",
+            "#NotasCitricas",
+            "#CafeSCL",
+            "#BaristasChile",
+            "#specialtycoffee"
+          ]
+        },
+        {
+          "enfoque": "educativo",
+          "gancho": "Aprende a preparar tu café de especialidad en casa.",
+          "cuerpo": "Para disfrutar al máximo nuestro nuevo Colombia Pitalito, te recomendamos prepararlo en V60. Usa 15 gramos de café para 250 ml de agua a 92 grados Celsius, logrando una extracción cercana a los tres minutos. Este método realza su acidez jugosa y su complejidad limpia, ideal si buscas una taza llena de matices cítricos y florales. 🌿",
+          "llamado_a_la_accion": "Sigue estos pasos y cuéntanos cómo quedó tu preparación.",
+          "hashtags": [
+            "#CafeAltura",
+            "#MetodosDeExtraccion",
+            "#V60Chile",
+            "#AprendeDeCafe",
+            "#CafeteriasSantiago",
+            "#specialtycoffee"
+          ]
+        }
+      ]
+    },
+    "p3_imagen": {
+      "analisis_visual": [
+        {
+          "elemento_ficha": "Mandarina",
+          "representacion_visual": "Rodajas frescas de mandarina con textura brillante",
+          "motivo": "Evoca visualmente la nota cítrica jugosa de la cata"
+        },
+        {
+          "elemento_ficha": "Panela",
+          "representacion_visual": "Un trozo rústico de panela morena",
+          "motivo": "Representa el dulzor natural característico presente en el café"
+        },
+        {
+          "elemento_ficha": "Flor de azahar",
+          "representacion_visual": "Delicadas flores blancas de azahar",
+          "motivo": "Refleja el perfil floral y elegante de la taza"
+        },
+        {
+          "elemento_ficha": "Té negro",
+          "representacion_visual": "Hojas secas de té y un fondo sutilmente infusionado",
+          "motivo": "Ilustra la limpieza y delicadeza en boca del café"
+        },
+        {
+          "elemento_ficha": "Origen colombiano y altitud",
+          "representacion_visual": "Superficie de madera cálida y luz natural de mañana",
+          "motivo": "Transmite la calidez del origen y el trabajo artesanal en la altura"
+        }
+      ],
+      "prompt_imagen": "A minimalist product photograph for Instagram featuring a ceramic coffee cup with a clean brew and a kraft paper coffee bag without any text or labels, placed on a warm wooden table. Arranged naturally around them are fresh mandarin orange slices, a rustic piece of panela, delicate white orange blossom flowers, and dried black tea leaves. Soft morning sunlight streams in from the side, creating gentle shadows. Vertical 4:5 composition, commercial food photography style, shot with an 85mm lens, natural color palette of warm browns, white, and subtle orange, photorealistic, highly detailed, no text, no logos, no typography.",
+      "prompt_negativo": "text, letters, words, logo, brand, typography, labels, people, human hands, cartoon, illustration, 3d render, plastic, dark shadows, oversaturated, blurry, low quality",
+      "relacion_aspecto": "4:5"
+    },
+    "p4_guion": "Buscas una experiencia distinta en tu taza de café. En Café Altura te invitamos a descubrir nuestro origen Colombia Pitalito. Cultivado a mil setecientos cincuenta metros de altura, este café te sorprende con notas a mandarina fresca, un dulzor sutil parecido a la chancaca y la textura ligera y limpia de una infusión de té. Su acidez jugosa y sus delicados aromas a flor de naranjo lo convierten en una opción sumamente refrescante. Te esperamos en Café Altura para que pruebes esta taza limpia y compleja."
+  },
+  "brasil": {
+    "lote": {
+      "id": "brasil",
+      "pais": "Brasil",
+      "region": "Cerrado Mineiro",
+      "productor": "Fazenda Santa Clara",
+      "variedad": "Catuaí Amarillo",
+      "proceso": "Pulped natural (honey)",
+      "altitud": "1.100 msnm",
+      "notas": "avellana tostada, cacao, caramelo, ciruela seca",
+      "acidez_cuerpo": "acidez baja, cuerpo alto y cremoso",
+      "puntaje_sca": 84,
+      "tueste": "medio",
+      "metodo_sugerido": "espresso, flat white o prensa francesa",
+      "precio": "$9.900 (250 g)"
+    },
+    "p0_baseline": "Aquí tienes varias opciones con diferentes estilos y tonos para que elijas la que mejor se adapte a la personalidad de tu cafetería. \n\n### Opción 1: Cercana y Descriptiva (Ideal para el pizarrón o menú impreso)\n\n> **Brasil – Cerrado Mineiro (Catuaí Amarillo)**\n> *   **Origen:** Cerrado Mineiro, Brasil (1.100 msnm)\n> *   **Proceso:** Honey (Pulped Natural)\n> *   **Puntuación SCA:** 84 puntos\n> *   **Notas de cata:** Avellana tostada, cacao, caramelo y un toque de ciruela seca.\n> \n> **En taza:** Un café redondo, reconfortante y con una dulzura natural excepcional. Su proceso *honey* potencia notas cremosas a chocolate y frutos secos, con una sutil acidez frutal que equilibra cada sorbo. ¡El abrazo perfecto para empezar el día!\n\n---\n\n### Opción 2: Sofisticada y de Especialidad (Para clientes apasionados)\n\n> **Cosecha de Autor: Brasil Cerrado Mineiro**\n> \n> Desde las tierras altas de Cerrado Mineiro a 1.100 metros de altura, te presentamos este excepcional Catuaí Amarillo de 84 puntos. Gracias a su meticuloso proceso *pulped natural*, este café logra una sinfonía de sabores donde predominan la **avellana tostada, el cacao intenso y el caramelo**, coronados por un elegante y sutil recuerdo a **ciruela seca**. \n> \n> Un café de cuerpo sedoso y dulzura prominente, ideal para quienes buscan una experiencia clásica pero llena de matices complejos. \n\n---\n\n### Opción 3: Corta y Directa (Perfecta para Instagram / Redes Sociales)\n\n> 🇧🇷 **NUEVO ORIGEN EN BARRA: BRASIL CERRADO MINEIRO** ☕✨\n> \n> ¿Buscas dulzura y confort en tu taza? Traemos este **Catuaí Amarillo** (84 pts) procesado mediante *honey*, que resalta lo mejor del terroir brasileño.\n> \n> 🌰 Notas a **avellana, cacao y caramelo**, con un toque final de **ciruela seca**. \n> 🏔️ 1.100 msnm.\n> \n> Pruébalo hoy en tu método favorito o en un espresso cremoso. ¡Te va a encantar! 🤎\n\n---\n\n### 💡 Tips extra para venderlo mejor en tu cafetería:\n*   **Si lo preparas en Espresso:** Destaca su cuerpo, su baja acidez y cómo combina genial con leche (sabe a bombón o tarta de avellana).\n*   **Si lo preparas en Filtro (V60, Chemex):** Menciona que la ciruela seca y el caramelo se abren mucho más al enfriarse ligeramente.",
+    "p1_ficha": {
+      "nombre_comercial": "Brasil Cerrado Mineiro · Avellana y Cacao",
+      "descripcion_menu": "Un café de cuerpo alto y cremoso que destaca por sus notas a avellana tostada, cacao, caramelo y ciruela seca. Su acidez es baja, ofreciendo una taza reconfortante y muy dulce, ideal para disfrutar todos los días.",
+      "descripcion_extendida": "Proveniente de la región de Cerrado Mineiro y cultivado por la Fazenda Santa Clara a 1.100 metros, este lote de variedad Catuaí Amarillo cuenta con 84 puntos SCA. Gracias a su proceso pulped natural o honey, que resalta los azúcares naturales del grano, este tueste medio entrega una textura cremosa en boca con un perfil goloso. Disfruta sus sabores marcados a avellana tostada y cacao, equilibrados con el dulzor del caramelo y un toque de ciruela seca.",
+      "notas_para_cliente": [
+        {
+          "nota": "avellana tostada",
+          "analogia": "el aroma de unas avellanas recién tostadas"
+        },
+        {
+          "nota": "cacao",
+          "analogia": "chocolate amargo derretido"
+        },
+        {
+          "nota": "caramelo",
+          "analogia": "como una salsa de caramelo suave"
+        },
+        {
+          "nota": "ciruela seca",
+          "analogia": "fruta confitada y dulce"
+        }
+      ],
+      "intensidad_1a5": 4,
+      "acidez_1a5": 1,
+      "preparacion_recomendada": "En prensa francesa, 18 g de café para 300 ml de agua a 92 °C con una extracción de 4 minutos.",
+      "maridaje": "Alfajor artesanal de manjar",
+      "ideal_para": "Quien prefiere un café de cuerpo cremoso, baja acidez y notas dulces a chocolate."
+    },
+    "p2_copy": {
+      "variantes": [
+        {
+          "enfoque": "origen",
+          "gancho": "Descubre el origen de nuestro nuevo café brasileño.",
+          "cuerpo": "Directo desde la región de Cerrado Mineiro y cultivado por la Fazenda Santa Clara a 1.100 metros de altura, llega a Café Altura un lote muy especial. Este café de variedad Catuaí Amarillo pasa por un proceso que resalta todos sus azúcares naturales en el grano. El resultado es una taza reconfortante y muy dulce, ideal para disfrutar todos los días. ☕",
+          "llamado_a_la_accion": "Ven a probarlo a nuestra cafetería esta semana.",
+          "hashtags": [
+            "#CafeAltura",
+            "#CafeDeEspecialidad",
+            "#SantiagoDeChile",
+            "#CafeteriasSantiago",
+            "#CerradoMineiro",
+            "#AmantesDelCafe",
+            "#specialtycoffee"
+          ]
+        },
+        {
+          "enfoque": "sensorial",
+          "gancho": "Un cuerpo cremoso con notas a chocolate y avellana.",
+          "cuerpo": "Te invitamos a probar Brasil Cerrado Mineiro, un café de cuerpo alto y cremoso que destaca por el aroma de unas avellanas recién tostadas y chocolate amargo derretido. En cada sorbo encontrarás el dulzor de una salsa de caramelo suave y un toque de fruta confitada y dulce como la ciruela seca. Su acidez es baja, creando una experiencia golosa y perfecta para acompañar con un alfajor artesanal de manjar. 🌰",
+          "llamado_a_la_accion": "Lleva tu bolsa de 250 g a solo $9.900 para disfrutar en casa.",
+          "hashtags": [
+            "#CafeAltura",
+            "#CafeDeEspecialidad",
+            "#SantiagoDeChile",
+            "#CafeEnCasa",
+            "#AvellanaYCacao",
+            "#BaristaChile",
+            "#specialtycoffee"
+          ]
+        },
+        {
+          "enfoque": "educativo",
+          "gancho": "Aprende a preparar el mejor café en casa.",
+          "cuerpo": "Para disfrutar al máximo nuestro nuevo Brasil Cerrado Mineiro, te recomendamos usar la prensa francesa. La receta es simple: ocupa 18 gramos de café para 300 mililitros de agua a una temperatura de 92 grados Celsius, con una extracción de 4 minutos. Así lograrás destacar su textura cremosa y sus deliciosas notas a avellana tostada, cacao, caramelo y ciruela seca. 🌿",
+          "llamado_a_la_accion": "Descubre este tueste medio y sorpréndete con su sabor.",
+          "hashtags": [
+            "#CafeAltura",
+            "#MetodosDeExtraccion",
+            "#PrensaFrancesa",
+            "#CafeDeEspecialidad",
+            "#SantiagoDeChile",
+            "#EducacionCafetera",
+            "#specialtycoffee"
+          ]
+        }
+      ]
+    },
+    "p3_imagen": {
+      "analisis_visual": [
+        {
+          "elemento_ficha": "avellana tostada",
+          "representacion_visual": "avellanas enteras y tostadas con su cáscara",
+          "motivo": "evoca directamente la nota a frutos secos del café"
+        },
+        {
+          "elemento_ficha": "cacao",
+          "representacion_visual": "trozos de chocolate oscuro y granos de cacao",
+          "motivo": "representa la nota dulce y profunda a cacao presente en la taza"
+        },
+        {
+          "elemento_ficha": "caramelo",
+          "representacion_visual": "gotas o destellos de caramelo dorado",
+          "motivo": "transmite visualmente la dulzura cremosa del café"
+        },
+        {
+          "elemento_ficha": "ciruela seca",
+          "representacion_visual": "ciruelas deshidratadas de tonos oscuros y profundos",
+          "motivo": "refleja la nota sutil a fruta madura y seca"
+        },
+        {
+          "elemento_ficha": "origen Brasil y proceso pulped natural",
+          "representacion_visual": "superficie de madera cálida, hojas verdes sutiles y luz solar suave de atardecer",
+          "motivo": "conecta con la calidez de la tierra y el proceso cuidadoso de la hacienda"
+        }
+      ],
+      "prompt_imagen": "A professional product photograph of a ceramic cup filled with creamy espresso and an unlabeled matte brown coffee bag resting on a warm wooden table. Natural props surrounding the scene include whole roasted hazelnuts, dark chocolate chunks, golden caramel drops, and dry prunes. The background is a cozy rustic kitchen with subtle green foliage. Vertical 4:5 composition, macro shot focusing on the crema. Warm golden hour lighting with soft shadows. Photorealistic style shot on 85mm lens, f/2.8, natural earth tone color palette, high resolution, highly detailed.",
+      "prompt_negativo": "text, letters, logos, brand names, watermarks, deformed objects, cartoon, illustration, bright harsh flash, plastic texture, people, hands, cups with writing, low quality",
+      "relacion_aspecto": "4:5"
+    },
+    "p4_guion": "Buscas un café reconfortante y muy dulce para todos los días. Descubre Brasil Cerrado Mineiro en Café Altura. Cultivado a mil cien metros, este café destaca por su cuerpo alto y cremoso, con una baja acidez que deja todo el protagonismo al dulzor. En cada taza encontrarás el aroma de unas avellanas recién tostadas, chocolate amargo derretido, salsa de caramelo suave y un toque de fruta confitada y dulce. Ideal para acompañar con un alfajor artesanal de manjar. Ven a probarlo hoy en Café Altura."
+  }
+}
