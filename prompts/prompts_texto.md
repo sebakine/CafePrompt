@@ -1,8 +1,8 @@
-# Prompts texto-texto — CafePrompt
+# Prompts texto-texto — CafePrompt (versión final, iteración 2)
 
-Todos los prompts se ejecutan con **Google Gemini** (capa gratuita) desde el notebook `CafePrompt_POC.ipynb`.
-Las llaves `{...}` son variables que el notebook reemplaza con los datos de cada lote (plantillas parametrizadas).
-Las respuestas reales obtenidas están en [`../outputs/cache_respuestas.json`](../outputs/cache_respuestas.json).
+Todos los prompts se ejecutan con **Google Gemini** (`gemini-3.5-flash-lite`, capa gratuita) desde el notebook `CafePrompt_POC.ipynb`.
+Las llaves `{...}` son variables que el notebook reemplaza con los datos de cada lote (plantillas parametrizadas); las llaves dobles `{{ }}` son llaves literales escapadas para `str.format()`.
+Las respuestas reales están en [`../outputs/cache_respuestas.json`](../outputs/cache_respuestas.json) (iteración 2) y [`../outputs/iteracion_1/`](../outputs/iteracion_1/) (iteración 1, incluye el texto exacto de los prompts v1).
 
 | Prompt | Técnicas | Temperatura | Salida |
 |---|---|---|---|
@@ -11,7 +11,17 @@ Las respuestas reales obtenidas están en [`../outputs/cache_respuestas.json`](.
 | P2 Copy Instagram | rol + zero-shot + restricciones + encadenamiento (usa P1) | 0,8 | JSON |
 | P3 Meta-prompt de imagen | rol + razonamiento guiado + plantilla visual + meta-prompting | 0,3 | JSON |
 | P4 Guion de audio | rol + restricciones para TTS + encadenamiento (usa P1) | 0,5 | texto plano |
-| P5 Rúbrica | LLM-as-judge + JSON | 0 | JSON |
+| P5 Rúbrica | LLM-as-judge + contexto de uso + JSON | 0 | JSON |
+
+## Cambios de la iteración 1 a la iteración 2
+
+| Prompt | Cambio | Motivo (falla detectada en la iteración 1) |
+|---|---|---|
+| P1 | Extensión en oraciones + rango de palabras + estructura origen → proceso → taza → invitación | 2 de 3 descripciones extendidas bajo 80 palabras |
+| P2 | Hashtags CamelCase sin tildes ni duplicados; no copiar oraciones de P1; ganchos distintos | Hashtags con tildes/duplicados y variantes que copiaban la ficha |
+| P3 | 55-75 palabras en frases cortas; exclusiones solo en el negative prompt; "plain unbranded" | Prompts de más de 90 palabras y "no text, no logos" dentro del prompt positivo |
+| P4 | 5-6 oraciones, 60-80 palabras | 2 de 3 guiones sobre 85 palabras |
+| P5 | Contexto de uso ("se publica tal cual") y definición estricta de dato inventado | La rúbrica v1 no penalizaba textos con varias opciones ni métodos fuera de la ficha |
 
 ---
 
@@ -50,7 +60,8 @@ Transforma la ficha técnica de un lote de café en una ficha sensorial para cli
 
 ### FORMATO DE SALIDA ###
 Responde solo con un objeto JSON con estas claves exactas:
-nombre_comercial (máx. 6 palabras), descripcion_menu (30 a 45 palabras), descripcion_extendida (80 a 120 palabras),
+nombre_comercial (máx. 6 palabras), descripcion_menu (2 oraciones, entre 30 y 45 palabras),
+descripcion_extendida (5 o 6 oraciones, entre 85 y 115 palabras: origen → proceso → taza → invitación),
 notas_para_cliente (lista con una entrada por cada nota de cata: {{"nota", "analogia"}}; analogías con alimentos conocidos en Chile),
 intensidad_1a5 (entero), acidez_1a5 (entero), preparacion_recomendada (una oración con receta),
 maridaje (un alimento o pastelería habitual en Chile), ideal_para (una oración).
@@ -132,7 +143,9 @@ enfoque, gancho (primera línea, máx. 10 palabras), cuerpo (50 a 110 palabras),
 - Máximo 3 emojis por publicación.
 - Menciona el precio solo en una de las tres variantes: {precio}.
 - No uses información que no esté en la ficha sensorial.
-- Hashtags en español, salvo #specialtycoffee.
+- Hashtags en español y en formato CamelCase, sin tildes ni duplicados (ej.: #CafeDeEspecialidad), salvo #specialtycoffee.
+- Reescribe con palabras propias: no copies oraciones textuales de la ficha sensorial.
+- Cada variante debe abrir con un gancho distinto (pregunta, dato de origen o invitación).
 ```
 
 ## P3 — Meta-prompt: construcción del prompt de imagen
@@ -147,7 +160,7 @@ Necesitamos una fotografía publicitaria de producto para Instagram (formato ver
 ### TAREA (sigue los pasos en orden) ###
 Paso 1 — En "analisis_visual", asocia cada nota de cata a un elemento visual concreto (fruta, flor, ingrediente, color, textura)
 y el origen/proceso a una ambientación sutil (materiales, paisaje, luz). Justifica cada asociación en pocas palabras.
-Paso 2 — En "prompt_imagen", redacta en INGLÉS un prompt de 60 a 90 palabras con este orden:
+Paso 2 — En "prompt_imagen", redacta en INGLÉS un prompt de 55 a 75 palabras (frases cortas separadas por comas) con este orden:
 [sujeto principal: taza y bolsa de café sin etiqueta] + [elementos de las notas] + [ambientación del origen]
 + [composición y encuadre] + [iluminación] + [estilo fotográfico y lente] + [paleta de colores] + [calidad].
 Paso 3 — En "prompt_negativo", lista en inglés lo que se debe evitar.
@@ -158,6 +171,8 @@ prompt_imagen (string), prompt_negativo (string), relacion_aspecto ("4:5").
 
 ### RESTRICCIONES ###
 - La imagen NO debe contener texto, letras, logos ni marcas (los modelos de imagen los deforman; la marca se agrega después).
+  Estas exclusiones van SOLO en "prompt_negativo": no escribas "text", "logo" ni "label" en el prompt positivo,
+  porque mencionarlos puede inducir al modelo a dibujarlos. Describe la bolsa como "plain unbranded".
 - Estética natural y realista, no caricaturesca. Sin personas.
 - No incluyas elementos que contradigan las notas de cata.
 ```
@@ -172,7 +187,7 @@ Ficha sensorial del café:
 """
 
 ### TAREA ###
-Escribe el guion de una locución de 25 a 35 segundos (entre 60 y 85 palabras) para un Reel de Instagram
+Escribe el guion de una locución de unos 30 segundos (5 o 6 oraciones, entre 60 y 80 palabras) para un Reel de Instagram
 y para la versión accesible de la carta (personas con discapacidad visual).
 
 ### RESTRICCIONES ###
@@ -203,12 +218,17 @@ Actúa como evaluador imparcial de contenidos de marketing de café de especiali
 {texto_b}
 """
 
+### CONTEXTO DE USO ###
+Cada texto debe servir como descripción del café en la web y en la carta de la cafetería y se publicará TAL CUAL:
+no puede requerir que el dueño elija entre opciones, borre instrucciones, quite formato markdown o recorte extensión
+(máximo recomendado: 120 palabras).
+
 ### TAREA ###
 Evalúa cada texto de 1 (muy deficiente) a 5 (excelente) en:
-fidelidad (no inventa ni omite datos clave de la ficha), claridad (lo entiende alguien sin formación en cata),
-tono_marca (cercano, experto, español de Chile neutro, sin voseo), persuasion (motiva la compra),
-uso_directo (se puede publicar tal cual, sin editar).
-Lista además los datos inventados que detectes en cada texto.
+fidelidad (no inventa ni omite datos clave de la ficha; cualquier método, sabor o dato ausente en la ficha es un dato inventado),
+claridad (lo entiende alguien sin formación en cata), tono_marca (cercano, experto, español de Chile neutro, sin voseo),
+persuasion (motiva la compra), uso_directo (se puede publicar tal cual según el contexto de uso).
+Lista además los datos inventados que detectes en cada texto. Sé estricto y justifica con evidencia.
 
 ### FORMATO DE SALIDA ###
 JSON: {{"A": {{"fidelidad": int, "claridad": int, "tono_marca": int, "persuasion": int, "uso_directo": int, "datos_inventados": [str]}},
