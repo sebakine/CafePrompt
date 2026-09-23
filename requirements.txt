@@ -1,0 +1,6 @@
+google-genai>=1.0
+gTTS>=2.5
+gradio>=4.0
+pandas
+matplotlib
+ipython
