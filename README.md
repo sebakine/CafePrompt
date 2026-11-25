@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/banner-dark.svg">
+  <img alt="Banner del proyecto" src=".github/banner-light.svg" width="100%">
+</picture>
+
 # ☕ CafePrompt: asistente de contenido con IA generativa para cafeterías de especialidad
 
 **Proyecto Final — Curso "IA: Generación de Prompts" (Coderhouse)** · Autor: Sebastián Felipe Muñoz Rivera
